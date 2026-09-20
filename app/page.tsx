@@ -115,6 +115,17 @@ export default function Home() {
           </article>
         ))}
       </section>
+
+      <iframe
+        src= "https://www.bilibili.com/?spm_id_from=333.337.0.0" 
+        title= "bilibili" 
+        style={{
+          width: "100%",
+          height: "500px",  
+          border: "0",
+          borderRadius: "4px",
+        }}
+      />
     </main>
   );
 }
